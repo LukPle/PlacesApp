@@ -24,6 +24,8 @@
 		30A9770C2BC9CDFE00E83D3A /* InfoPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */; };
 		30A9770E2BCB077C00E83D3A /* CollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9770D2BCB077C00E83D3A /* CollectionCard.swift */; };
 		30A977112BCB0EE700E83D3A /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977102BCB0EE700E83D3A /* CollectionModel.swift */; };
+		30A977132BCB3B4500E83D3A /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977122BCB3B4500E83D3A /* CityModel.swift */; };
+		30A977152BCB3BBC00E83D3A /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977142BCB3BBC00E83D3A /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPill.swift; sourceTree = "<group>"; };
 		30A9770D2BCB077C00E83D3A /* CollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCard.swift; sourceTree = "<group>"; };
 		30A977102BCB0EE700E83D3A /* CollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
+		30A977122BCB3B4500E83D3A /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		30A977142BCB3BBC00E83D3A /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				30A977102BCB0EE700E83D3A /* CollectionModel.swift */,
+				30A977122BCB3B4500E83D3A /* CityModel.swift */,
+				30A977142BCB3BBC00E83D3A /* PlaceModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -325,12 +331,14 @@
 				30A977112BCB0EE700E83D3A /* CollectionModel.swift in Sources */,
 				30A9770A2BC5645800E83D3A /* Strings.swift in Sources */,
 				30A9770C2BC9CDFE00E83D3A /* InfoPill.swift in Sources */,
+				30A977132BCB3B4500E83D3A /* CityModel.swift in Sources */,
 				30A977072BC5609400E83D3A /* Feed.swift in Sources */,
 				3024C84D2BBC90A700A41A49 /* IconButton.swift in Sources */,
 				3024C8482BBC724200A41A49 /* Map.swift in Sources */,
 				3024C8442BBC6B7100A41A49 /* Collections.swift in Sources */,
 				30A9770E2BCB077C00E83D3A /* CollectionCard.swift in Sources */,
 				3024C8462BBC6B8400A41A49 /* Profile.swift in Sources */,
+				30A977152BCB3BBC00E83D3A /* PlaceModel.swift in Sources */,
 				3024C81A2BBC605800A41A49 /* ContentView.swift in Sources */,
 				3024C8182BBC605800A41A49 /* PlacesApp.swift in Sources */,
 			);

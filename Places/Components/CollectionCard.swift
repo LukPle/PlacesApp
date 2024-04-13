@@ -7,7 +7,7 @@ struct CollectionCard: View {
         ZStack(alignment: .topLeading) {
             collection.color
                 .cornerRadius(25)
-                .padding(.vertical, 12)
+                .padding(.vertical, 6)
                 .shadow(color: Color.gray, radius: 4, x: 0, y: 2)
             VStack(alignment: .leading, spacing: 8) {
                 Spacer()
@@ -19,9 +19,10 @@ struct CollectionCard: View {
                         .padding(.leading, 12)
                     Spacer()
                     Text("\(collection.places.count) Places")
-                        .font(.callout)
+                        .font(.subheadline)
                         .fontWeight(.medium)
                         .foregroundColor(.white)
+                        .padding(.top, 8)
                 }.padding(24)
             }
             
