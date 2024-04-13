@@ -1,18 +1,37 @@
-//
-//  AddSheet.swift
-//  Places
-//
-//  Created by Lukas Plenk on 09.04.24.
-//
-
 import SwiftUI
 
 struct AddSheet: View {
+    @Environment(\.dismiss) private var dismiss
+    
+    var onAddCity: (String) -> Void
+
+    @State var newCity: String = ""
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Add a city")
+                .font(.title)
+            TextField(text: $newCity, prompt: Text("Name of the city")) {
+                Text("Title")
+            }
+
+            HStack {
+                Button("Cancel") {
+                    // Cancel saving and dismiss.
+                    dismiss()
+                }
+                Spacer()
+                Button("Confirm") {
+                    onAddCity(newCity)
+                    dismiss()
+                }
+            }
+        }
+        .padding(.all, 30)
     }
 }
 
 #Preview {
-    AddSheet()
+    AddSheet(onAddCity: { _ in })
 }
+

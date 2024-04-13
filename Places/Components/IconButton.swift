@@ -1,18 +1,31 @@
-//
-//  IconButton.swift
-//  Places
-//
-//  Created by Lukas Plenk on 02.04.24.
-//
-
 import SwiftUI
 
 struct IconButton: View {
+    var iconName: String
+    var action: () -> Void
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: action) {
+            ZStack {
+                Circle()
+                    .fill(Color.white)
+                    .opacity(0.25)
+                    .shadow(color: Color.gray, radius: 4, x: 0, y: 2)
+                    .overlay(
+                        Circle()
+                            .stroke(Color.black, lineWidth: 0.5)
+                        )
+                    .frame(width: 35, height: 35)
+                
+                Image(systemName: iconName)
+                    .resizable()
+                    .frame(width: 15, height: 15)
+                    .foregroundColor(.black)
+            }
+        }
     }
 }
 
 #Preview {
-    IconButton()
+    IconButton(iconName: "plus", action: {})
 }

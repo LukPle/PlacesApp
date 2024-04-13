@@ -14,6 +14,16 @@
 		3024C82A2BBC605B00A41A49 /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8292BBC605B00A41A49 /* PlacesTests.swift */; };
 		3024C8342BBC605B00A41A49 /* PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8332BBC605B00A41A49 /* PlacesUITests.swift */; };
 		3024C8362BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8352BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift */; };
+		3024C8442BBC6B7100A41A49 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8432BBC6B7100A41A49 /* Collections.swift */; };
+		3024C8462BBC6B8400A41A49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8452BBC6B8400A41A49 /* Profile.swift */; };
+		3024C8482BBC724200A41A49 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8472BBC724200A41A49 /* Map.swift */; };
+		3024C84D2BBC90A700A41A49 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C84C2BBC90A700A41A49 /* IconButton.swift */; };
+		30A977052BC55E9000E83D3A /* AddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977042BC55E9000E83D3A /* AddSheet.swift */; };
+		30A977072BC5609400E83D3A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977062BC5609400E83D3A /* Feed.swift */; };
+		30A9770A2BC5645800E83D3A /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977092BC5645800E83D3A /* Strings.swift */; };
+		30A9770C2BC9CDFE00E83D3A /* InfoPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */; };
+		30A9770E2BCB077C00E83D3A /* CollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9770D2BCB077C00E83D3A /* CollectionCard.swift */; };
+		30A977112BCB0EE700E83D3A /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977102BCB0EE700E83D3A /* CollectionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		3024C82F2BBC605B00A41A49 /* PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3024C8332BBC605B00A41A49 /* PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesUITests.swift; sourceTree = "<group>"; };
 		3024C8352BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3024C8432BBC6B7100A41A49 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		3024C8452BBC6B8400A41A49 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3024C8472BBC724200A41A49 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		3024C84C2BBC90A700A41A49 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		30A977042BC55E9000E83D3A /* AddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheet.swift; sourceTree = "<group>"; };
+		30A977062BC5609400E83D3A /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		30A977092BC5645800E83D3A /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPill.swift; sourceTree = "<group>"; };
+		30A9770D2BCB077C00E83D3A /* CollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCard.swift; sourceTree = "<group>"; };
+		30A977102BCB0EE700E83D3A /* CollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,10 @@
 		3024C8162BBC605800A41A49 /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				30A9770F2BCB0ECE00E83D3A /* Models */,
+				30A977082BC5643300E83D3A /* Constants */,
+				3024C84B2BBC908A00A41A49 /* Components */,
+				3024C8422BBC6B3100A41A49 /* Screens */,
 				3024C8172BBC605800A41A49 /* PlacesApp.swift */,
 				3024C8192BBC605800A41A49 /* ContentView.swift */,
 				3024C81B2BBC605A00A41A49 /* Assets.xcassets */,
@@ -127,6 +151,44 @@
 				3024C8352BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift */,
 			);
 			path = PlacesUITests;
+			sourceTree = "<group>";
+		};
+		3024C8422BBC6B3100A41A49 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3024C8432BBC6B7100A41A49 /* Collections.swift */,
+				3024C8452BBC6B8400A41A49 /* Profile.swift */,
+				3024C8472BBC724200A41A49 /* Map.swift */,
+				30A977062BC5609400E83D3A /* Feed.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3024C84B2BBC908A00A41A49 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3024C84C2BBC90A700A41A49 /* IconButton.swift */,
+				30A977042BC55E9000E83D3A /* AddSheet.swift */,
+				30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */,
+				30A9770D2BCB077C00E83D3A /* CollectionCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30A977082BC5643300E83D3A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				30A977092BC5645800E83D3A /* Strings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		30A9770F2BCB0ECE00E83D3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30A977102BCB0EE700E83D3A /* CollectionModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A977052BC55E9000E83D3A /* AddSheet.swift in Sources */,
+				30A977112BCB0EE700E83D3A /* CollectionModel.swift in Sources */,
+				30A9770A2BC5645800E83D3A /* Strings.swift in Sources */,
+				30A9770C2BC9CDFE00E83D3A /* InfoPill.swift in Sources */,
+				30A977072BC5609400E83D3A /* Feed.swift in Sources */,
+				3024C84D2BBC90A700A41A49 /* IconButton.swift in Sources */,
+				3024C8482BBC724200A41A49 /* Map.swift in Sources */,
+				3024C8442BBC6B7100A41A49 /* Collections.swift in Sources */,
+				30A9770E2BCB077C00E83D3A /* CollectionCard.swift in Sources */,
+				3024C8462BBC6B8400A41A49 /* Profile.swift in Sources */,
 				3024C81A2BBC605800A41A49 /* ContentView.swift in Sources */,
 				3024C8182BBC605800A41A49 /* PlacesApp.swift in Sources */,
 			);
@@ -420,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Places/Preview Content\"";
+				DEVELOPMENT_TEAM = MVYY37KDNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -440,7 +513,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lukasplenk.Places;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Places/Preview Content\"";
+				DEVELOPMENT_TEAM = MVYY37KDNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -476,7 +551,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lukasplenk.Places;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
