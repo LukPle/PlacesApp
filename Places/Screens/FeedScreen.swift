@@ -1,19 +1,18 @@
 //
-//  Map.swift
+//  Feed.swift
 //  Places
 //
-//  Created by Lukas Plenk on 02.04.24.
+//  Created by Lukas Plenk on 09.04.24.
 //
 
 import SwiftUI
 
-struct Map: View {
+struct FeedScreen: View {
     var body: some View {
         Text("Coming Soon")
     }
 }
 
-
 #Preview {
-    ContentView()
+    FeedScreen()
 }

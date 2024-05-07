@@ -13,3 +13,7 @@ let restaurants = CollectionModel(name: "Restaurants", icon: "fork.knife", color
 let bars = CollectionModel(name: "Bars", icon: "wineglass.fill", color: Color.purple, places: [PlaceModel(name: "Jasminas Weißweinhütte"), PlaceModel(name: "Zum Augustiner"), PlaceModel(name: "Drink n Fuck")])
 
 let photoSpots = CollectionModel(name: "Photo Spots", icon: "camera.fill", color: Color.indigo, places: [PlaceModel(name: "River Side")])
+
+let sportSpots = CollectionModel(name: "Sport & Fitness", icon: "figure.run", color: Color.red, places: [PlaceModel(name: "Boulder Center"), PlaceModel(name: "Mini Golf Park")])
+
+let parks = CollectionModel(name: "Parks", icon: "leaf.fill", color: Color.green, places: [PlaceModel(name: "Central Park"), PlaceModel(name: "Shady Park Southside")])

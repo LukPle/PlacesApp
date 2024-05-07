@@ -14,18 +14,19 @@
 		3024C82A2BBC605B00A41A49 /* PlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8292BBC605B00A41A49 /* PlacesTests.swift */; };
 		3024C8342BBC605B00A41A49 /* PlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8332BBC605B00A41A49 /* PlacesUITests.swift */; };
 		3024C8362BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8352BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift */; };
-		3024C8442BBC6B7100A41A49 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8432BBC6B7100A41A49 /* Collections.swift */; };
-		3024C8462BBC6B8400A41A49 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8452BBC6B8400A41A49 /* Profile.swift */; };
-		3024C8482BBC724200A41A49 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8472BBC724200A41A49 /* Map.swift */; };
+		3024C8442BBC6B7100A41A49 /* CollectionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8432BBC6B7100A41A49 /* CollectionsScreen.swift */; };
+		3024C8462BBC6B8400A41A49 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8452BBC6B8400A41A49 /* ProfileScreen.swift */; };
+		3024C8482BBC724200A41A49 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C8472BBC724200A41A49 /* MapScreen.swift */; };
 		3024C84D2BBC90A700A41A49 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024C84C2BBC90A700A41A49 /* IconButton.swift */; };
 		30A977052BC55E9000E83D3A /* AddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977042BC55E9000E83D3A /* AddSheet.swift */; };
-		30A977072BC5609400E83D3A /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977062BC5609400E83D3A /* Feed.swift */; };
+		30A977072BC5609400E83D3A /* FeedScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977062BC5609400E83D3A /* FeedScreen.swift */; };
 		30A9770A2BC5645800E83D3A /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977092BC5645800E83D3A /* Strings.swift */; };
 		30A9770C2BC9CDFE00E83D3A /* InfoPill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */; };
 		30A9770E2BCB077C00E83D3A /* CollectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A9770D2BCB077C00E83D3A /* CollectionCard.swift */; };
 		30A977112BCB0EE700E83D3A /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977102BCB0EE700E83D3A /* CollectionModel.swift */; };
 		30A977132BCB3B4500E83D3A /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977122BCB3B4500E83D3A /* CityModel.swift */; };
 		30A977152BCB3BBC00E83D3A /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977142BCB3BBC00E83D3A /* PlaceModel.swift */; };
+		30A977172BCBF25100E83D3A /* CollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A977162BCBF25100E83D3A /* CollectionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +58,20 @@
 		3024C82F2BBC605B00A41A49 /* PlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3024C8332BBC605B00A41A49 /* PlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesUITests.swift; sourceTree = "<group>"; };
 		3024C8352BBC605B00A41A49 /* PlacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3024C8432BBC6B7100A41A49 /* Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
-		3024C8452BBC6B8400A41A49 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		3024C8472BBC724200A41A49 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		3024C8432BBC6B7100A41A49 /* CollectionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsScreen.swift; sourceTree = "<group>"; };
+		3024C8452BBC6B8400A41A49 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		3024C8472BBC724200A41A49 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
 		3024C84C2BBC90A700A41A49 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		30A977042BC55E9000E83D3A /* AddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSheet.swift; sourceTree = "<group>"; };
-		30A977062BC5609400E83D3A /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		30A977062BC5609400E83D3A /* FeedScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedScreen.swift; sourceTree = "<group>"; };
 		30A977092BC5645800E83D3A /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		30A9770B2BC9CDFE00E83D3A /* InfoPill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPill.swift; sourceTree = "<group>"; };
 		30A9770D2BCB077C00E83D3A /* CollectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCard.swift; sourceTree = "<group>"; };
 		30A977102BCB0EE700E83D3A /* CollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
 		30A977122BCB3B4500E83D3A /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		30A977142BCB3BBC00E83D3A /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		30A977162BCBF25100E83D3A /* CollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionScreen.swift; sourceTree = "<group>"; };
+		30A977182BD57F2D00E83D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		3024C8162BBC605800A41A49 /* Places */ = {
 			isa = PBXGroup;
 			children = (
+				30A977182BD57F2D00E83D3A /* Info.plist */,
 				30A9770F2BCB0ECE00E83D3A /* Models */,
 				30A977082BC5643300E83D3A /* Constants */,
 				3024C84B2BBC908A00A41A49 /* Components */,
@@ -160,10 +164,11 @@
 		3024C8422BBC6B3100A41A49 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				3024C8432BBC6B7100A41A49 /* Collections.swift */,
-				3024C8452BBC6B8400A41A49 /* Profile.swift */,
-				3024C8472BBC724200A41A49 /* Map.swift */,
-				30A977062BC5609400E83D3A /* Feed.swift */,
+				3024C8432BBC6B7100A41A49 /* CollectionsScreen.swift */,
+				3024C8452BBC6B8400A41A49 /* ProfileScreen.swift */,
+				3024C8472BBC724200A41A49 /* MapScreen.swift */,
+				30A977062BC5609400E83D3A /* FeedScreen.swift */,
+				30A977162BCBF25100E83D3A /* CollectionScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -332,12 +337,13 @@
 				30A9770A2BC5645800E83D3A /* Strings.swift in Sources */,
 				30A9770C2BC9CDFE00E83D3A /* InfoPill.swift in Sources */,
 				30A977132BCB3B4500E83D3A /* CityModel.swift in Sources */,
-				30A977072BC5609400E83D3A /* Feed.swift in Sources */,
+				30A977072BC5609400E83D3A /* FeedScreen.swift in Sources */,
 				3024C84D2BBC90A700A41A49 /* IconButton.swift in Sources */,
-				3024C8482BBC724200A41A49 /* Map.swift in Sources */,
-				3024C8442BBC6B7100A41A49 /* Collections.swift in Sources */,
+				3024C8482BBC724200A41A49 /* MapScreen.swift in Sources */,
+				3024C8442BBC6B7100A41A49 /* CollectionsScreen.swift in Sources */,
 				30A9770E2BCB077C00E83D3A /* CollectionCard.swift in Sources */,
-				3024C8462BBC6B8400A41A49 /* Profile.swift in Sources */,
+				3024C8462BBC6B8400A41A49 /* ProfileScreen.swift in Sources */,
+				30A977172BCBF25100E83D3A /* CollectionScreen.swift in Sources */,
 				30A977152BCB3BBC00E83D3A /* PlaceModel.swift in Sources */,
 				3024C81A2BBC605800A41A49 /* ContentView.swift in Sources */,
 				3024C8182BBC605800A41A49 /* PlacesApp.swift in Sources */,
@@ -503,6 +509,7 @@
 				DEVELOPMENT_TEAM = MVYY37KDNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Places/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -512,7 +519,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -541,6 +548,7 @@
 				DEVELOPMENT_TEAM = MVYY37KDNL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Places/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -550,7 +558,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

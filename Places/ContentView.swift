@@ -5,7 +5,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            Feed()
+            FeedScreen()
                 .tabItem {
                     Image(systemName: selectedTab == 0 ? "rectangle.grid.1x2.fill" : "rectangle.grid.1x2")
                         .environment(\.symbolVariants, .none)
@@ -13,7 +13,7 @@ struct ContentView: View {
                         .fontWeight(selectedTab == 0 ? .medium : .regular)
                 }
                 .tag(0)
-            Map()
+            MapScreen()
                 .tabItem {
                     Image(systemName: selectedTab == 1 ? "map.fill" : "map")
                         .environment(\.symbolVariants, .none)
@@ -21,7 +21,7 @@ struct ContentView: View {
                         .fontWeight(selectedTab == 1 ? .medium : .regular)
                 }
                 .tag(1)
-            Collections()
+            CollectionsScreen()
                 .tabItem {
                     Image(systemName: selectedTab == 2 ? "rectangle.stack.fill" : "rectangle.stack")
                         .environment(\.symbolVariants, .none)
@@ -29,7 +29,7 @@ struct ContentView: View {
                         .fontWeight(selectedTab == 2 ? .medium : .regular)
                 }
                 .tag(2)
-            Profile()
+            ProfileScreen()
                 .tabItem {
                     Image(systemName: selectedTab == 3 ? "person.fill" : "person")
                         .environment(\.symbolVariants, .none)

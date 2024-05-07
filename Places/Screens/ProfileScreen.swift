@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Profile: View {
+struct ProfileScreen: View {
     var body: some View {
         Text("Coming Soon")
     }
@@ -9,5 +9,5 @@ struct Profile: View {
 
 
 #Preview {
-    ContentView()
+    ProfileScreen()
 }

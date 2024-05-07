@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct Collections: View {
+struct CollectionsScreen: View {
     @State var cities: [CityModel] = [munich, vienna, prague, bratislava, paris, london]
     @State var currentCity: CityModel = munich
     @State var openSheet = false
@@ -8,7 +8,7 @@ struct Collections: View {
     var body: some View {
         NavigationView {
             ZStack {
-                LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.3), Color.blue.opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                LinearGradient(gradient: Gradient(colors: [Color.blue.opacity(0.25), Color.blue.opacity(0.5)]), startPoint: .topLeading, endPoint: .center)
                     .edgesIgnoringSafeArea(.all)
                 VStack(spacing: 12) {
                     Spacer()
@@ -58,8 +58,9 @@ struct Collections: View {
                             // Add action for the button here
                         }
                         Menu {
-                            Button("Add City", action: addCity)
+                            Button("Add Place", action: {})
                             Button("Add Collection", action: {})
+                            Button("Add City", action: addCity)
                         } label: {
                             IconButton(iconName: "plus") {
                                 // Add action for the button here
